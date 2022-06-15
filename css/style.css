@@ -407,6 +407,7 @@ h3.my-profession {
     display: block;
     text-align: center;
     align-items: center;
+    color: var(--text-black-900);
 }
 
 .about .about-content .skills .bars svg {
@@ -523,6 +524,13 @@ h3.my-profession {
     font-size: 16px;
     text-align: justify;
     color: var(--text-black-700);
+}
+
+.about .about-content .timeline .timeline-text a {
+    color: blue;
+}
+.about .about-content .timeline .timeline-text a:hover {
+    text-decoration: underline;
 }
 
 
